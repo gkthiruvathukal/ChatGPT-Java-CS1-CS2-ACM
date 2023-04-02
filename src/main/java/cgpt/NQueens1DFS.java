@@ -32,7 +32,7 @@ public class NQueens1DFS {
     }
 
 
-    private void solveNQueens(int n) {
+    public  void solveNQueens(int n) {
         int[] board = new int[n];
         Stack<Integer> stack = new Stack<>();
         stack.push(0);

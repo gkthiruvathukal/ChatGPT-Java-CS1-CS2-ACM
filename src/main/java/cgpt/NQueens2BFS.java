@@ -42,7 +42,7 @@ public class NQueens2BFS {
         }
     }
 
-    private void solveNQueens(int n) {
+    public void solveNQueens(int n) {
         Queue<BoardState> queue = new LinkedList<>();
         for (int row = 0; row < n; row++) {
             int[] initialBoard = new int[n];
